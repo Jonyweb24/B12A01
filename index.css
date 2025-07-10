@@ -5,19 +5,11 @@
        background-image: url(./Assets/Hero-bg.png);
         margin: 0 auto;
         
-}
-
-   
-   
-  
-    
+}   
 
 
 .nav{  
-    max-width:1440px;
-           
-   
-     
+    max-width:1440px;  
     display: flex;
     justify-content: space-between;
     margin-left: 50 auto;
@@ -29,8 +21,7 @@
     height: 48px;
     border-radius: 10px;
     margin-right:120px;
-    color:white;
-    
+    color:white;    
 }
 .logo{margin-left: 120px;
     color: #4E47FF;
@@ -151,8 +142,9 @@
     width: 840px;
     height: 365px;
     border-radius: 48px;
-    margin-top: 120px;
+    margin-top: 40px;
     margin-right:0;
+    margin-bottom: 20px;
 }
 .text-better{
     text-align: center;
