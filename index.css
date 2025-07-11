@@ -94,9 +94,11 @@ color:white;
 .productive{ 
     max-width:1140px;
     height: 306;
-    display: flex;
+    align-items: center;
+    /* display: flex; */
+
     border-radius: 10px;
-    margin-left: 220px;
+    margin-left: 250px;
     justify-content: space-around;
     background-color:#D3D3D3;
     border-radius: 10px;
@@ -112,6 +114,8 @@ color:white;
     color:#4E47FF;
     font-weight: bold;
     font-size:80px;
+    margin-top:5px;
+    margin-bottom: auto;
     gap: 20px;
  }
  .productive-card{
@@ -121,6 +125,7 @@ color:white;
     display: flex;
     gap:20px;
     margin-left: 20px; 
+    justify-content: center;
  }
   
 .users{max-width: 1140px;
