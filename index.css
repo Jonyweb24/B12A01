@@ -24,6 +24,10 @@
     margin-right:120px;
     color:white;    
 }
+.btn:hover{
+     background-color: #1091c4;
+color:white;
+}
 .btn-2nd{
     background-color:#4E47FF ;
     width: 135px;
