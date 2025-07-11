@@ -125,52 +125,56 @@ color:white;
     margin-left:220px;
     margin-top:0;
     gap:20px;
-    text-align: center;
+    
     align-items: center;}
 
 .user-font{font-size: 40px;
+    margin-left:250px;
+    align-items: center;
 }
 
- .user-exp{ width:200px; 
-    height: 60px;
+.icon-img{
     display: flex;
-    gap:5px;
-    margin-top:125px;
-    margin-left: 220px;
-     gap:20px;
-     align-items: center; 
- } 
- 
- .icon-img{
-    display: flex;
-    /* margin-top:5px;  */
     justify-content: space-between;
     align-items: center;
- }
-.icon{ 
-     margin-top: 0px;
+ } 
+ .icon{
      display: flex;
      justify-content: center;
- } 
+    
+  }  
 .icon img{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 20px;
     justify-content: center;
     align-items: center;
-
+    margin-top:0px;
 }
  
- .icon-card{
-    width: 264px;
-    display: flex;
-     height: 240px;  
+.icon-card{width: 360px;
+     display: flex; 
+    gap:50px;
+    align-items:center;
+    justify-content: center;
+    height: 256px;  
+    text-align: center; 
     box-shadow: #8987A1;
     border:0.5px solid whitesmoke;
     border-radius: 10px;
-    margin-top: 20px; 
-    gap:24px;
+    margin-top: 10px; 
+    margin-left: 220px;
  }
- .designers{
+ /* .icon-grid{
+     display:grid;
+ } */
+ .icon-grid{
+    display: grid;
+ }
+ /* .icon-gridm{
+    display: grid;
+    
+ } */
+.designers{
     margin-top: 10px;
  }
 
@@ -182,7 +186,7 @@ color:white;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top:70px;
+    margin-top:80px;
 
  }
 .img-2{
@@ -254,7 +258,7 @@ color:white;
 .logo-section{
                 max-width: 1140px;
                 height: 428px;
-                background-color: whitesmoke;
+                background-color: white;
                 margin-top: 60px;
                 margin-left: 220px;
                 text-align: center;
@@ -266,7 +270,7 @@ color:white;
         color:#4E47FF;
         text-decoration: none;
         font-size: 100px;
-        font-weight:bolder
+        font-weight:bolder;
 }
 .logo-section .contact-icon{
     display: flex;
