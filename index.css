@@ -15,14 +15,27 @@
     margin-left: 50 auto;
     gap:auto;
 }
+
 .btn{
     background-color:#4E47FF ;
-    width: 132px;
+    width: 135px;
     height: 48px;
     border-radius: 10px;
     margin-right:120px;
     color:white;    
 }
+.btn-2nd{
+    background-color:#4E47FF ;
+    width: 135px;
+    height: 48px;
+    border-radius: 10px;
+    margin-right:120px;
+    color:white;    
+}
+.btn-2nd:hover{
+    background-color: #f8fc06;
+color:black;}
+
 .logo{margin-left: 120px;
     color: #4d47ffab;
 }
@@ -42,6 +55,10 @@
      background-color: #4E47FF;
      color:white;
      border-radius: 10px;
+}
+.btn2:hover{
+    background-color: #c1c410;
+color:white;
 }
 .action-section{   
     max-width: 1440px;
@@ -99,13 +116,9 @@
  .Producitve-users{
     display: flex;
     gap:20px;
-    margin-left: 20px;
-    
-    
+    margin-left: 20px; 
  }
   
-
-
 .users{max-width: 1140px;
     height: 320px;
     justify-content: center; 
@@ -115,47 +128,52 @@
     text-align: center;
     align-items: center;}
 
-.user-font{ font-size: 40px;
-
+.user-font{font-size: 40px;
 }
 
- /* .user-exp{ width:200px; */
+ .user-exp{ width:200px; 
     height: 60px;
     display: flex;
     gap:5px;
     margin-top:125px;
     margin-left: 220px;
-    /* gap:20px; */
-    /* align-items: center; 
-/* }  */
+     gap:20px;
+     align-items: center; 
+ } 
  
- .icon{ 
-    
-     margin-top: 2px;
-    display: flex;
-    justify-content: start;
- }
  .icon-img{
     display: flex;
-    /* margin-top:5px; */
+    /* margin-top:5px;  */
     justify-content: space-between;
     align-items: center;
  }
+.icon{ 
+     margin-top: 0px;
+     display: flex;
+     justify-content: center;
+ } 
+.icon img{
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
  .icon-card{
-    width: 364px;
+    width: 264px;
     display: flex;
-    /* height: 243px; */
+     height: 240px;  
     box-shadow: #8987A1;
     border:0.5px solid whitesmoke;
     border-radius: 10px;
-    /* margin-top: 33px; */
-    /* gap:24px; */
+    margin-top: 20px; 
+    gap:24px;
  }
  .designers{
-    margin-bottom: 10px; 
-    margin-top: 40px;
-    
+    margin-top: 10px;
  }
+
  .focus{
     max-width: 1140px;
     height: 697px;
@@ -190,6 +208,10 @@
     color: white;
     font-weight: bold;
 }
+.btn-3:hover{
+    background-color: #8987A1;
+color:white;
+}
 .get-in{ max-width: 1140px;
     height: 632px;
     display: flex;
@@ -199,11 +221,7 @@
     margin-top: 50px;
     text-align: start;
     font-weight: bold;
-    background-color: aliceblue;;
-    
-    
-
-
+    background-color: aliceblue;
 
 }
 .email{width: 497px;
@@ -228,6 +246,10 @@
             padding:10px;
             border-radius: 10px;
             color: white;
+}
+.btn-4:hover{
+    background-color: #8987A1;
+color:white;
 }
 .logo-section{
                 max-width: 1140px;
