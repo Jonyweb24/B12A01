@@ -129,20 +129,20 @@
     align-items: center;
   
  }
- .icon{ width:116px;
-    height:20px;
+ .icon{ 
+    
     margin-top: 2px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
  }
  .icon-card{
     width: 364px;
-    height: 243px;
+    /* height: 243px; */
     box-shadow: #8987A1;
     border:0.5px solid whitesmoke;
     border-radius: 10px;
-    gap:24px;
+    /* gap:24px; */
  }
  .designers{
     margin-bottom: 10px;
